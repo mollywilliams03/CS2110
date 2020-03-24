@@ -1,0 +1,477 @@
+panic@the-disco:~/Documents/hw8$ ls
+example_save_file.txt  todo
+panic@the-disco:~/Documents/hw8$ ./todo nonexistant_file.txt
+ERROR: File, nonexistant_file.txt, does not exist!
+panic@the-disco:~/Documents/hw8$ ./todo
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 1
+-------------------------------- YOUR TO-DO LIST -------------------------------
+
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 8
+Invalid choice!
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 6
+panic@the-disco:~/Documents/hw8$ ls
+example_save_file.txt  todo
+panic@the-disco:~/Documents/hw8$ ./todo example_save_file.txt
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 1
+-------------------------------- YOUR TO-DO LIST -------------------------------
+
+Buy milk
+
+Due: 02/26/2019
+Description: Drive to the store and get some milk for your cereal
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Graduate!
+
+Due: 05/04/2019
+Description: I made it!
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Wash bear
+
+Due: 04/10/2019
+Description: Bear is a bit dirty from getting hugged by too many CS majors
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processor Design Exam
+
+Due: 02/27/2019
+Description: Learn verilog so that I don't get owned
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Grade quiz 3
+
+Due: 02/25/2019
+Description: Make sure that the quiz gets graded
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Lay siege to Constantinople
+
+Due: 05/29/1453
+Description: Need to get the trebuchets set up properly
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 2
+------------------------------- ADD TO TO-DO LIST ------------------------------
+
+Type in on separate lines in this order:
+
+- Title
+- Description
+- If it is completed (1 or 0)
+- Due Day
+- Due Month
+- Due Year
+
+Finish Autograder for Homework 8
+The autograder needs to get done... Good thing Maddie is helping me!
+0
+28
+2
+2019
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 1
+-------------------------------- YOUR TO-DO LIST -------------------------------
+
+Buy milk
+
+Due: 02/26/2019
+Description: Drive to the store and get some milk for your cereal
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Graduate!
+
+Due: 05/04/2019
+Description: I made it!
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Wash bear
+
+Due: 04/10/2019
+Description: Bear is a bit dirty from getting hugged by too many CS majors
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processor Design Exam
+
+Due: 02/27/2019
+Description: Learn verilog so that I don't get owned
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Grade quiz 3
+
+Due: 02/25/2019
+Description: Make sure that the quiz gets graded
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Lay siege to Constantinople
+
+Due: 05/29/1453
+Description: Need to get the trebuchets set up properly
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Finish Autograder for Homework 8
+
+Due: 02/28/2019
+Description: The autograder needs to get done... Good thing Maddie is helping me!
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 3
+------------------------------ MARK ITEM COMPLETED -----------------------------
+
+Enter the index of the item you want to mark completed:
+
+> 4
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 1
+-------------------------------- YOUR TO-DO LIST -------------------------------
+
+Buy milk
+
+Due: 02/26/2019
+Description: Drive to the store and get some milk for your cereal
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Graduate!
+
+Due: 05/04/2019
+Description: I made it!
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Wash bear
+
+Due: 04/10/2019
+Description: Bear is a bit dirty from getting hugged by too many CS majors
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processor Design Exam
+
+Due: 02/27/2019
+Description: Learn verilog so that I don't get owned
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Grade quiz 3
+
+Completed!
+Description: Make sure that the quiz gets graded
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Lay siege to Constantinople
+
+Due: 05/29/1453
+Description: Need to get the trebuchets set up properly
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Finish Autograder for Homework 8
+
+Due: 02/28/2019
+Description: The autograder needs to get done... Good thing Maddie is helping me!
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 4
+---------------------------- REMOVE COMPLETED ITEMS ----------------------------
+
+Success! 1 items removed!
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 1
+-------------------------------- YOUR TO-DO LIST -------------------------------
+
+Buy milk
+
+Due: 02/26/2019
+Description: Drive to the store and get some milk for your cereal
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Graduate!
+
+Due: 05/04/2019
+Description: I made it!
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Wash bear
+
+Due: 04/10/2019
+Description: Bear is a bit dirty from getting hugged by too many CS majors
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processor Design Exam
+
+Due: 02/27/2019
+Description: Learn verilog so that I don't get owned
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Lay siege to Constantinople
+
+Due: 05/29/1453
+Description: Need to get the trebuchets set up properly
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Finish Autograder for Homework 8
+
+Due: 02/28/2019
+Description: The autograder needs to get done... Good thing Maddie is helping me!
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 3
+------------------------------ MARK ITEM COMPLETED -----------------------------
+
+Enter the index of the item you want to mark completed:
+
+> 0
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 3
+------------------------------ MARK ITEM COMPLETED -----------------------------
+
+Enter the index of the item you want to mark completed:
+
+> 1
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 1
+-------------------------------- YOUR TO-DO LIST -------------------------------
+
+Buy milk
+
+Completed!
+Description: Drive to the store and get some milk for your cereal
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Graduate!
+
+Completed!
+Description: I made it!
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Wash bear
+
+Due: 04/10/2019
+Description: Bear is a bit dirty from getting hugged by too many CS majors
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processor Design Exam
+
+Due: 02/27/2019
+Description: Learn verilog so that I don't get owned
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Lay siege to Constantinople
+
+Due: 05/29/1453
+Description: Need to get the trebuchets set up properly
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Finish Autograder for Homework 8
+
+Due: 02/28/2019
+Description: The autograder needs to get done... Good thing Maddie is helping me!
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 4
+---------------------------- REMOVE COMPLETED ITEMS ----------------------------
+
+Success! 2 items removed!
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 1
+-------------------------------- YOUR TO-DO LIST -------------------------------
+
+Wash bear
+
+Due: 04/10/2019
+Description: Bear is a bit dirty from getting hugged by too many CS majors
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processor Design Exam
+
+Due: 02/27/2019
+Description: Learn verilog so that I don't get owned
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Lay siege to Constantinople
+
+Due: 05/29/1453
+Description: Need to get the trebuchets set up properly
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Finish Autograder for Homework 8
+
+Due: 02/28/2019
+Description: The autograder needs to get done... Good thing Maddie is helping me!
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 5
+--------------------------------- SAVE FILE AS ---------------------------------
+
+Please enter the file name you would like to save to up to 127 characters in length:
+
+> fresh_save.txt
+================================== TO-DO LIST ==================================
+
+What would you like to do?
+
+1) Print my To-do List
+2) Add a To-do List Item
+3) Mark an item completed
+4) Remove all completed items
+5) Save as
+6) Quit
+
+> 6
+panic@the-disco:~/Documents/hw8$ ls
+example_save_file.txt  fresh_save.txt  todo
+panic@the-disco:~/Documents/hw8$ cat fresh_save.txt
+Wash bear
+Bear is a bit dirty from getting hugged by too many CS majors
+0
+10
+4
+2019
+Processor Design Exam
+Learn verilog so that I don't get owned
+0
+27
+2
+2019
+Lay siege to Constantinople
+Need to get the trebuchets set up properly
+0
+29
+5
+1453
+Finish Autograder for Homework 8
+The autograder needs to get done... Good thing Maddie is helping me!
+0
+28
+2
+2019
